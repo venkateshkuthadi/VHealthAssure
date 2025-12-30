@@ -10,7 +10,7 @@ public class MySqlInstance {
 	private MySqlInstance() {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/InsuranceDB","root","naveen");
+			con=DriverManager.getConnection("jdbc:mysql://localhost:3306/claimInformation","root","Root");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
